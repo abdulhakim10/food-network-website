@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 .flexible-container {
@@ -61,12 +62,15 @@ h2 {
 }
 
 .border-shadow {
-    border: 15px solid white;
-    border-radius: 10px;
+    border: 25px solid white;
+    border-radius: 20px;
     box-shadow: 0px 0px 30px gray;
     margin: 10px 10px;
 
+}
 
+.border-shadow p {
+    line-height: 1.5;
 }
 
 .border-shadow img {
@@ -91,4 +95,9 @@ footer {
 
 footer p {
     color: mintcream;
+}
+
+.sides {
+    margin-right: 5%;
+    margin-left: 5%;
 }
